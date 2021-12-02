@@ -5,7 +5,7 @@ const Database = new Sequelize(
     'postgres', // user
     '123456', // senha
     {
-        host: '192.168.0.18', // endereco do server
+        host: 'localhost', // endereco do server
         port: 5432, // porta do postgres
         dialect: 'postgres'
     }
