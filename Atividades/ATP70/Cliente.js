@@ -10,6 +10,6 @@ const cliente = new Cliente();
 cliente.nome = "Larissa";
 cliente.sobrenome  = "Souza"; 
 cliente.rg = "31264XX-X";
-cliente.cpf = "XXX-XXX-XXX-XX";
+cliente.cpf = "XXXXX"
 
 console.log(cliente);
