@@ -1,5 +1,5 @@
 import DataBase from "./DataBase.js";
-import ClienteTable from "./ClienteTable.js";
+import Cliente from "./ClienteTable.js"
 
 DataBase
     .sync()
