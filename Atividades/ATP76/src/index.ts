@@ -1,33 +1,9 @@
-export class Cliente{
-    private _id:number;
-    private _nome:string;
-    private _sobrenome:string;
-    
-    constructor(id:number,nome:string){
-        this._id=id
-        this._nome=nome
-        this._sobrenome=this.sobrenome;
-    }
-    
-    public get id() : number {
-        return this.id;
-    }  
-    public set id(id : number) {
-        this.id = id;
-    }
-    public get nome() : string {
-        return this.nome;
-    }
-    public set nome(nome : string) {
-        this.nome = nome;
-    }   
+import {Cliente} from "./cliente";
 
-    public get sobrenome() : string {
-        return this.sobrenome;
-    }
-    public set sobrenome(sobrenome : string) {
-        this.sobrenome = sobrenome;
-    }   
+const cliente= new Cliente(1,"Larissa");
 
-  
-}
+let id= cliente.id
+const nome=cliente.nome
+const sobrenome=cliente.sobrenome
+
+console.log(`ID ${id} Nome: ${nome} Sobrenome: ${sobrenome}`);
